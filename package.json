@@ -1,16 +1,30 @@
 {
   "name": "bcv-divisas",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "este paquete se encarga de realizar la consulta de las divisas listadas en la pagina web del banco central de venezuela como lo es el USD, EUR entre otros mas",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs":"jsdoc -c jsdoc.json"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "axios": "1.2.1",
-    "cheerio": "^1.0.0-rc.12"
-  }
+    "cheerio": "1.0.0-rc.12",
+    "jsdoc": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stolenLeaf/bcv-divisas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stolenLeaf/bcv-divisas/issues"
+  },
+  "homepage": "https://github.com/stolenLeaf/bcv-divisas#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {}
 }
