@@ -1,6 +1,6 @@
 {
   "name": "bcv-divisas",
-  "version": "1.2.2",
+  "version": "1.2.6",
   "description": "este paquete se encarga de realizar la consulta de las divisas listadas en la pagina web del banco central de venezuela como lo es el USD, EUR entre otros mas",
   "main": "src/index.js",
   "scripts": {
